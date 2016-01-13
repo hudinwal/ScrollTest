@@ -10,6 +10,8 @@
 
 @interface ViewController ()
 
+@property (nonatomic,weak) IBOutlet ScrollView * scrollView;
+
 @end
 
 @implementation ViewController
@@ -22,6 +24,28 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+@end
+
+@implementation ScrollView
+
+- (BOOL)gestureRecognizer:(UIGestureRecognizer *)gestureRecognizer shouldRecognizeSimultaneouslyWithGestureRecognizer:(UIGestureRecognizer *)otherGestureRecognizer
+{
+    return NO;
+}
+
+-(BOOL)gestureRecognizer:(UIGestureRecognizer *)gestureRecognizer shouldRequireFailureOfGestureRecognizer:(UIGestureRecognizer *)otherGestureRecognizer {
+
+    if([gestureRecognizer isKindOfClass:[UIPanGestureRecognizer class]] && [otherGestureRecognizer isKindOfClass:[UIPanGestureRecognizer class]])
+    {
+        if(gestureRecognizer.view == self)
+            return YES;
+        else
+            return NO;
+    }
+    else
+        return NO;
 }
 
 @end

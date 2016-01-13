@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B317E851C44D97A0061EAE0 /* PageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B317E841C44D97A0061EAE0 /* PageViewController.m */; };
 		1BCD74BB1C43FC86002C99A2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BCD74BA1C43FC86002C99A2 /* main.m */; };
 		1BCD74BE1C43FC86002C99A2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BCD74BD1C43FC86002C99A2 /* AppDelegate.m */; };
 		1BCD74C11C43FC86002C99A2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BCD74C01C43FC86002C99A2 /* ViewController.m */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1B317E831C44D97A0061EAE0 /* PageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageViewController.h; sourceTree = "<group>"; };
+		1B317E841C44D97A0061EAE0 /* PageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageViewController.m; sourceTree = "<group>"; };
 		1BCD74B61C43FC86002C99A2 /* ScrollTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScrollTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BCD74BA1C43FC86002C99A2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1BCD74BC1C43FC86002C99A2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -67,6 +70,8 @@
 				1BCD74C71C43FC86002C99A2 /* LaunchScreen.storyboard */,
 				1BCD74CA1C43FC86002C99A2 /* Info.plist */,
 				1BCD74B91C43FC86002C99A2 /* Supporting Files */,
+				1B317E831C44D97A0061EAE0 /* PageViewController.h */,
+				1B317E841C44D97A0061EAE0 /* PageViewController.m */,
 			);
 			path = ScrollTest;
 			sourceTree = "<group>";
@@ -152,6 +157,7 @@
 				1BCD74C11C43FC86002C99A2 /* ViewController.m in Sources */,
 				1BCD74BE1C43FC86002C99A2 /* AppDelegate.m in Sources */,
 				1BCD74BB1C43FC86002C99A2 /* main.m in Sources */,
+				1B317E851C44D97A0061EAE0 /* PageViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +306,7 @@
 				1BCD74CF1C43FC86002C99A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

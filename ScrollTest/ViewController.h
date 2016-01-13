@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface ScrollView : UIScrollView
 
 @end
 
+@interface ViewController : UIViewController
+
+@end
